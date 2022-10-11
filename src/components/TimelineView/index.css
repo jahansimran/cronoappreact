@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.time-line-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+}
+.my-journey {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.heading {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: 25px;
+}
+.time-line-inner-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

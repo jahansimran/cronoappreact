@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.unorder {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list {
+  list-style-type: none;
+}
+.list-item {
+  color: #1e293b;
+  background-color: lightgrey;
+  padding: 6px;
+  font-weight: bold;
+  margin: 10px;
+}
+.heading-c {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 1000;
+}
+@media screen and (max-width: 576px) {
+  .heading-c {
+    font-size: 10px;
+  }
+}
+.date {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.icon {
+  height: 15px;
+  width: 15px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.description {
+  color: darkslategrey;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .description {
+    font-size: 5px;
+    flex-shrink: 1px;
+  }
+}
